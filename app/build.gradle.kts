@@ -7,6 +7,10 @@ android {
     namespace = "com.ismailmesutmujde.kotlinradiobuttoncheckbox"
     compileSdk = 34
 
+    buildFeatures {
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId = "com.ismailmesutmujde.kotlinradiobuttoncheckbox"
         minSdk = 24
